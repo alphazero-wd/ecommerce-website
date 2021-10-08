@@ -13,6 +13,7 @@
     "image": "https://m.media-amazon.com/images/I/61i8Vjb17SL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 5,
     "price": 1599
@@ -22,6 +23,7 @@
     "image": "https://m.media-amazon.com/images/I/61eDXs9QFNL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 3,
     "price": 1299
@@ -40,8 +42,8 @@
     "image": "https://m.media-amazon.com/images/I/71uVYy3PbCL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
-    "stars": null,
     "price": 729
   },
   {
@@ -58,6 +60,7 @@
     "image": "https://m.media-amazon.com/images/I/81F-QC1N5WL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.4,
     "price": 189
@@ -77,6 +80,7 @@
     "image": "https://m.media-amazon.com/images/I/6167QZVZocL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.5,
     "price": 456
@@ -86,6 +90,7 @@
     "image": "https://m.media-amazon.com/images/I/81SSw14XZHL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.2,
     "price": 409
@@ -95,6 +100,7 @@
     "image": "https://m.media-amazon.com/images/I/71v5v3awHCS.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.4,
     "availability_quantity": 1,
@@ -105,6 +111,7 @@
     "image": "https://m.media-amazon.com/images/I/81x9I9qXbmL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.4,
     "availability_quantity": 1,
@@ -115,6 +122,7 @@
     "image": "https://m.media-amazon.com/images/I/61K5-sw7yDL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.4,
     "price": 346.29
@@ -124,6 +132,7 @@
     "image": "https://m.media-amazon.com/images/I/61hBc3oHjyL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.3,
     "availability_quantity": 3,
@@ -164,6 +173,7 @@
     "image": "https://m.media-amazon.com/images/I/71u1BzjGJbL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.2,
     "price": 1450
@@ -173,6 +183,7 @@
     "image": "https://m.media-amazon.com/images/I/51wbAAz5O6L.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.4,
     "price": 569
@@ -182,6 +193,7 @@
     "image": "https://m.media-amazon.com/images/I/71SzDBdKVxL.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.2,
     "price": 140.39
@@ -200,6 +212,7 @@
     "image": "https://m.media-amazon.com/images/I/718cuNZTR8L.jpg",
     "category": "iPhone",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.4,
     "availability_quantity": 6,
@@ -210,6 +223,7 @@
     "image": "https://m.media-amazon.com/images/I/71wFAKrdnWL.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.5,
     "availability_quantity": 1,
@@ -220,6 +234,7 @@
     "image": "https://m.media-amazon.com/images/I/71bdE2zv5+S.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.1,
     "availability_quantity": 2,
@@ -230,6 +245,7 @@
     "image": "https://m.media-amazon.com/images/I/7153n4nWHhL.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4,
     "availability_quantity": 4,
@@ -240,6 +256,7 @@
     "image": "https://m.media-amazon.com/images/I/91BVnL9M4lL.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.7,
     "availability_quantity": 17,
@@ -250,6 +267,7 @@
     "image": "https://m.media-amazon.com/images/I/613RgCcVT8L.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.3,
     "availability_quantity": 7,
@@ -260,6 +278,7 @@
     "image": "https://m.media-amazon.com/images/I/71bdE2zv5+S.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.1,
     "price": 1049.98
@@ -269,6 +288,7 @@
     "image": "https://m.media-amazon.com/images/I/71bdE2zv5+S.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.4,
     "price": 899
@@ -316,6 +336,7 @@
     "image": "https://m.media-amazon.com/images/I/41C6BtQEd4L.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.2,
     "availability_quantity": 2,
@@ -336,6 +357,7 @@
     "image": "https://m.media-amazon.com/images/I/41ZmJyBN44L.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 3.8,
     "price": 138.59
@@ -345,6 +367,7 @@
     "image": "https://m.media-amazon.com/images/I/617Pi72NJrL.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.4,
     "price": 215
@@ -354,6 +377,7 @@
     "image": "https://m.media-amazon.com/images/I/71bdE2zv5+S.jpg",
     "category": "Android",
     "brand": "Samsung",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.3,
     "price": 889
@@ -363,6 +387,7 @@
     "image": "https://m.media-amazon.com/images/I/71k5eyE2z9S.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.3,
     "availability_quantity": 9,
@@ -373,6 +398,7 @@
     "image": "https://m.media-amazon.com/images/I/71gD8WdSlaL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.8,
     "price": 1249.99
@@ -382,6 +408,7 @@
     "image": "https://m.media-amazon.com/images/I/61yMjrVik6L.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 5,
     "availability_quantity": 4,
@@ -392,6 +419,7 @@
     "image": "https://m.media-amazon.com/images/I/41Yhy+L-06L.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.4,
     "price": 287.99
@@ -411,6 +439,7 @@
     "image": "https://m.media-amazon.com/images/I/71nM55mRvxL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.2,
     "availability_quantity": 7,
@@ -421,6 +450,7 @@
     "image": "https://m.media-amazon.com/images/I/61qabAYJkRL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.3,
     "availability_quantity": 1,
@@ -431,6 +461,7 @@
     "image": "https://m.media-amazon.com/images/I/71NZpTxWzRL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.3,
     "price": 449
@@ -440,6 +471,7 @@
     "image": "https://m.media-amazon.com/images/I/51-9oSG8jAL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.6,
     "availability_quantity": 10,
@@ -479,6 +511,7 @@
     "image": "https://m.media-amazon.com/images/I/51wAwbvuFaL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 4.3,
     "price": 484.99
@@ -488,6 +521,7 @@
     "image": "https://m.media-amazon.com/images/I/21+2gXvpcCL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.9,
     "price": 1199
@@ -497,6 +531,7 @@
     "image": "https://m.media-amazon.com/images/I/71P25wQd49L.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": false,
     "stars": 3.8,
     "availability_quantity": 2,
@@ -507,430 +542,174 @@
     "image": "https://m.media-amazon.com/images/I/61oPbujIUkL.jpg",
     "category": "Macbook",
     "brand": "Apple",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc laoreet odio ut leo rutrum, vitae malesuada purus fringilla. In volutpat ultrices suscipit. Aenean et arcu dolor. Proin iaculis, purus ut aliquam tristique, ex velit sodales mi, non sagittis quam ex.",
     "featured": true,
     "stars": 4.3,
     "price": 353.76
   },
   {
-    "name": "Flannel Shirt for Men, Buffalo Plaid Long Sleeve Mens Flannel Shirts",
-    "image": "https://m.media-amazon.com/images/I/816Pe4oBzEL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": false,
-    "stars": 4.6,
-    "price": 29.99
-  },
-  {
-    "name": "Men's Relaxed Fit Boot Cut Jean  Men's Long-Sleeve Regular-fit Casual Poplin Shirt  Men's Perfect Short",
-    "image": "https://m.media-amazon.com/images/I/71r0o40ITlL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
+    "name": "Desktop Mini PC Fanless Computer Windows 10 Pro Intel Atom Quad Core x5-Z8350 4GB DDR/64GB eMMC HDMI and VGA Port 2.4/5.8G WiFi BT4.2 USB 3.0 Mounting Bracket Auto Power On",
+    "image": "https://m.media-amazon.com/images/I/61SsN-N6NdL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
     "featured": true,
-    "stars": 4.5,
-    "price": 24.99
+    "stars": 4.1,
+    "price": 149.99
   },
   {
-    "name": "6410 Next Level Men's Premium Fitted Sueded Crewneck T-Shirt",
-    "image": "https://m.media-amazon.com/images/I/61ncc9PVqaS.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": false,
-    "stars": 4.7,
-    "price": 9.49
-  },
-  {
-    "name": "Men's Active Basic Jogger Fleece Pants",
-    "image": "https://m.media-amazon.com/images/I/81s2XsZFfHS.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
+    "name": "HP Elite Desktop PC Computer Intel Core i5 3.1-GHz, 8 gb Ram, 1 TB Hard Drive, DVDRW, 19 Inch LCD Monitor, Keyboard, Mouse, Wireless WiFi, Windows 10 (Renewed)",
+    "image": "https://m.media-amazon.com/images/I/61xhyNzcR1L.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
     "featured": true,
-    "stars": 4.4,
-    "price": 14.99
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 3.9,
+    "price": 216.89
   },
   {
-    "name": "Men's 2 in 1 Workout Running Shorts Lightweight Training Yoga Gym 7\" Short with Zipper Pockets",
-    "image": "https://m.media-amazon.com/images/I/712rqQDrjlL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
+    "name": "Lsxvern Mini PC Windows 10 Pro Intel Celeron N3350(Up to 2.4GHz) 6GB DDR4 RAM 64GB eMMC Mini Desktop Computer, Dual WiFi, Dual-Screen Display Support 4K, USB 3.0, Gigabit Ethernet, HDMI, VGA",
+    "image": "https://m.media-amazon.com/images/I/61rq7mMbqvL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
     "featured": true,
+    "stars": 3.4,
+    "price": 136.99
+  },
+  {
+    "name": "(Renewed) HP Elite PC Desktop Computer Package - Intel Quad Core i5 3.1GHz, 8GB RAM, 500GB, 19inch LCD Monitor, Keyboard, Mouse, DVD, WiFi Adapter, Windows 10 Professional  DELL Optiplex 3010 Desktop PC - Intel Core i3-3220 3.1GHz 8GB 250GB DVD Windows 10 Professional (Renewed)']  Acer Aspire TC-895-UA91 Desktop, 10th Gen Intel Core i3-10100 4-Core Processor, 8GB 2666MHz DDR4, 512GB NVMe M.2 SSD, 8X DVD, 802.11ax Wi-Fi 6, USB 3.2 Type C, Windows 10 Home",
+    "image": "https://m.media-amazon.com/images/I/61xhyNzcR1L.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 3.9,
+    "price": 189.98
+  },
+  {
+    "name": "EasySMX Wired Gaming Controller,PC Game Controller Joystick with Dual-Vibration Turbo and Trigger Buttons for Windows/Android/ PS3/ TV Box(Black)",
+    "image": "https://m.media-amazon.com/images/I/71jYEbbKUdS.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
     "stars": 4.3,
-    "price": 22.98
-  },
-  {
-    "name": "Men's Essentials Warm-up 3-Stripes Track Top",
-    "image": "https://m.media-amazon.com/images/I/81impwY88NL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 5,
-    "price": 37.5
-  },
-  {
-    "name": "Men's Long Sleeve Quilted Lined Flannel Shirt Jacket with Hood",
-    "image": "https://m.media-amazon.com/images/I/91JqNJYhR2L.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 31.99
-  },
-  {
-    "name": "Men's Full-Zip Polar Fleece Jacket",
-    "image": "https://m.media-amazon.com/images/I/91NskywxglL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 20.5
-  },
-  {
-    "name": "Men's Essentials Warm-up Open Hem 3-Stripes Tracksuit Bottoms",
-    "image": "https://m.media-amazon.com/images/I/61SlFFCNY0L.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.7,
-    "price": 40
-  },
-  {
-    "name": "Men's Essentials Warm-up Slim Tapered 3-Stripes Tracksuit Bottoms",
-    "image": "https://m.media-amazon.com/images/I/51I9fgiIogL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.4,
-    "price": 30
-  },
-  {
-    "name": "Men's EcoSmart Open Leg Pant with Pockets",
-    "image": "https://m.media-amazon.com/images/I/71D+AR2Z2AL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.4
-  },
-  {
-    "name": "Men's 2 in 1 Running Shorts Gym Workout Quick Dry Mens Shorts with Phone Pocket",
-    "image": "https://m.media-amazon.com/images/I/81p1iXTEcCL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.3,
-    "price": 20.39
-  },
-  {
-    "name": "Men's Long Sleeve T-Shirt Hoodie, Script Logo",
-    "image": "https://m.media-amazon.com/images/I/71xBt5ifhkS.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.5,
-    "price": 21
-  },
-  {
-    "name": "Men's Basic Active Fleece Jogger Pants",
-    "image": "https://m.media-amazon.com/images/I/81Cmz0EnsSL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.5,
-    "price": 14.99
-  },
-  {
-    "name": "Men's Golf Reversible Web Belt",
-    "image": "https://m.media-amazon.com/images/I/71ji47xjS0L.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.7,
-    "price": 19.98
-  },
-  {
-    "name": "Men's Buck Camp Flannel Shirt",
-    "image": "https://m.media-amazon.com/images/I/9150Gx-BrKS.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 32.99
-  },
-  {
-    "name": "Men's 5 Pack Thermal Crew Socks",
-    "image": "https://m.media-amazon.com/images/I/81STN0+X62S.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 10.08
-  },
-  {
-    "name": "Men's Ultra Cotton T-Shirt, Style G2400",
-    "image": "https://m.media-amazon.com/images/I/817hvrli8dL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 10.99
-  },
-  {
-    "name": "Men’s Ultimate Cotton Heavyweight Pullover Hoodie Sweatshirt",
-    "image": "https://m.media-amazon.com/images/I/71fD1WLxBnL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 17
-  },
-  {
-    "name": "Men’s Sweater Fleece Quarter-Zip",
-    "image": "https://m.media-amazon.com/images/I/A1K9Z79rP8L.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.4,
     "price": 19.99
   },
   {
-    "name": "Men's Powerblend Fleece Pullover Hoodie, Script Logo",
-    "image": "https://m.media-amazon.com/images/I/71szqCoFfYL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.8,
-    "price": 30
-  },
-  {
-    "name": "Men's Fleece Hooded Sweatshirt, Style G18500",
-    "image": "https://m.media-amazon.com/images/I/611LES31cbS.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 14.97
-  },
-  {
-    "name": "Mens Merino Wool Hiking Cushion Socks Pack (2/4 Pair ,6-13 Size)",
-    "image": "https://m.media-amazon.com/images/I/61j49F1fMrL.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 23.99
-  },
-  {
-    "name": "Men's Tastigo 19 Shorts",
-    "image": "https://m.media-amazon.com/images/I/612GlXJHQ0L.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.3,
-    "price": 18.75
-  },
-  {
-    "name": "Men's Fleece Zip Hooded Sweatshirt, Style G18600",
-    "image": "https://m.media-amazon.com/images/I/619BuzmiXAS.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.7,
-    "price": 14.97
-  },
-  {
-    "name": "Men's Tech 2.0 Short-Sleeve T-Shirt",
-    "image": "https://m.media-amazon.com/images/I/91fj9Xr5FkS.jpg",
-    "category": "Men's Clothing",
-    "brand": "MenSwear",
-    "featured": true,
-    "stars": 4.6,
-    "price": 18.12
-  },
-  {
-    "name": "Women Slouchy Shirts Halloween Pumpkin Long Sleeve Sweatshirts Pullover",
-    "image": "https://m.media-amazon.com/images/I/51-vd2+LFNL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.4,
-    "price": 17.99
-  },
-  {
-    "name": "Women's Long Sleeve Tunics Color Block Cutout Sweatshirt Loose Fit Tops",
-    "image": "https://m.media-amazon.com/images/I/61mRsrCrb9L.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.6,
-    "price": 18.98
-  },
-  {
-    "name": "Women's Classic-Fit Long Sleeve Button Down Poplin Shirt",
-    "image": "https://m.media-amazon.com/images/I/81gKY1EhQGL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.3,
-    "price": 21.9
-  },
-  {
-    "name": "Women's Lightweight Long-Sleeve Full-Zip Water-Resistant Packable Puffer Jacket",
-    "image": "https://m.media-amazon.com/images/I/81lk-wTF9WL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.6,
-    "price": 39.9
-  },
-  {
-    "name": "Women's Essentials 3-Stripes Pants",
-    "image": "https://m.media-amazon.com/images/I/719T0ujkqlS.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.7,
-    "price": 28.54
-  },
-  {
-    "name": "Women's Print Stretch Bell Bottom Flare Palazzo Pants Trousers",
-    "image": "https://m.media-amazon.com/images/I/61jzswx7ufL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 3.9,
-    "price": 18.88
-  },
-  {
-    "name": "Women's Lightweight Long-Sleeve Longer Length Cardigan",
-    "image": "https://m.media-amazon.com/images/I/71M6fzWuOYL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.5,
-    "price": 26.5
-  },
-  {
-    "name": "Women Long Sleeve Sweatshirt Colorblock Tie Dye Printed Pullover Tops(S-2XL)",
-    "image": "https://m.media-amazon.com/images/I/61SYg3flMWL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 3.9,
-    "price": 25.99
-  },
-  {
-    "name": "Women's Badge of Sport Tee",
-    "image": "https://m.media-amazon.com/images/I/51XspsGpXqL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.6,
-    "price": 17.86
-  },
-  {
-    "name": "Womens Lightweight Running WOD Volleyball Shorts Workout Mesh Liner Zip Pocket",
-    "image": "https://m.media-amazon.com/images/I/81U2amLwfIS.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.5,
-    "price": 25.99
-  },
-  {
-    "name": "Women's Jersey Joggers",
-    "image": "https://m.media-amazon.com/images/I/81ULC9op1OS.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.3,
-    "price": 15
-  },
-  {
-    "name": "Women's Oceanside Pant",
-    "image": "https://m.media-amazon.com/images/I/61e1srBn61S.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4,
-    "price": 39.5
-  },
-  {
-    "name": "Sweaters for Women Long Sleeve Crewneck Sweatshirts with Pockets Tunic Tops Shirts",
-    "image": "https://m.media-amazon.com/images/I/71c-Vf6B6TL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 3.7,
-    "price": 21.99
-  },
-  {
-    "name": "Women's EcoSmart Crewneck Sweatshirt",
-    "image": "https://m.media-amazon.com/images/I/91k6h2LPSGL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.3,
-    "price": 11
-  },
-  {
-    "name": "Women's Tactical Patrol Pants II",
-    "image": "https://m.media-amazon.com/images/I/51VJ+cBwEcL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.3,
-    "price": 69.99
-  },
-  {
-    "name": "Women's Authentic Legging",
-    "image": "https://m.media-amazon.com/images/I/51GC0l3o4BL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.5,
-    "price": 18
-  },
-  {
-    "name": "Women's French Terry Capri Pant",
-    "image": "https://m.media-amazon.com/images/I/71sFvEmJx7S.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.4,
-    "price": 8.19
-  },
-  {
-    "name": "Women's Soft Touch Pleated Shoulder Crewneck Sweater",
-    "image": "https://m.media-amazon.com/images/I/91noTwFL6hL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.3,
-    "price": 23.9
-  },
-  {
-    "name": "Women's Thickened Down Jacket",
-    "image": "https://m.media-amazon.com/images/I/81-EQxBsHoL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
-    "featured": true,
-    "stars": 4.4,
-    "price": 159.99
-  },
-  {
-    "name": "Sweatshirts for Women Long Sleeve Crew Neck Plain Fashion Casual Tops",
-    "image": "https://m.media-amazon.com/images/I/718GJyQ4n7L.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
+    "name": "(Renewed) HP 8300 Elite Small Form Factor Desktop Computer, Intel Core i5-3470 3.2GHz Quad-Core, 8GB RAM, 500GB SATA, Windows 10 Pro 64-Bit, USB 3.0, Display Port",
+    "image": "https://m.media-amazon.com/images/I/71tc7Nl6VKS.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
     "featured": false,
-    "stars": 4.5,
-    "price": 20.39
+    "stars": 4.2,
+    "availability_quantity": 5,
+    "price": 155.98
   },
   {
-    "name": "Women's Tights",
-    "image": "https://m.media-amazon.com/images/I/71YQMGN6KQL.jpg",
-    "category": "Women's Clothing",
-    "brand": "Nordstrom",
+    "name": "HP Elite 8300 Ultra Small Slim High Performance Business Computer PC (Intel 3470s 2.9Ghz), 8GB RAM, 120GB Brand New SSD, Wireless WIFI, USB 3.0) Windows 10 Professional (Renewed)",
+    "image": "https://m.media-amazon.com/images/I/61qaS2Dr0xL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 4.4,
+    "price": 139
+  },
+  {
+    "name": "HP Elite Desktop Computer Package - Windows 10 Professional, Intel Quad Core i5 3.2GHz, 8GB RAM, 500GB HDD, 22inch LCD Monitor, Keyboard, Mouse, WiFi, Microsoft Authorized Refurbished PC (Renewed)",
+    "image": "https://m.media-amazon.com/images/I/61CltMS60lL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 4.1,
+    "price": 241.99
+  },
+  {
+    "name": "Dell Optiplex PC - Intel C2D E7500 2.93GHz, New 4GB Memory, 160GB, DVD, Windows 10 Professional (Renewed)",
+    "image": "https://m.media-amazon.com/images/I/21X-Znit1wL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": false,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 3.9,
+    "availability_quantity": 5,
+    "price": 145.45
+  },
+  {
+    "name": "Microsoft Windows 10 Pro 64 Bit System Builder OEM",
+    "image": "https://m.media-amazon.com/images/I/310XZ-rNRGL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "stars": 4.4,
+    "price": 147.99
+  },
+  {
+    "name": "Microsoft Authorized Refurbished- HP Elite Desktop PC Computer Intel Core i5 3.1-GHz, 8 gb Ram, 1 TB Hard Drive, DVDRW, 19 Inch LCD Monitor, Keyboard, Mouse, Wireless WiFi, Windows 10 (Renewed) …",
+    "image": "https://m.media-amazon.com/images/I/714T3JNoA3S.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "stars": 4.2,
+    "price": 248.49
+  },
+  {
+    "name": "Plugable USB 2.0 Transfer Cable, Unlimited Use, Transfer Data Between 2 Windows PC's, Compatible with Windows 10, 8.1, 8, 7, Vista, XP, Bravura Easy Computer Sync Software Included",
+    "image": "https://m.media-amazon.com/images/I/61XeARlgwSL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 4.4,
+    "price": 29.95
+  },
+  {
+    "name": "PC Stick Computer Stick Windows 10 Pro 4GB DDR3 64GB eMMC Intel Atom Z8350,Support 2.4G/5G Dual Band WiFi/4K HD/BT 4.2",
+    "image": "https://m.media-amazon.com/images/I/61vvxO01awL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": false,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "price": 119.99
+  },
+  {
+    "name": "MeLE Fanless Mini PC Stick Celeron J4125 8G/128G Windows 10 Pro Mini Computer Stick Support HDMI 4K 60Hz Dual Band WiFi with Gigabit Ethernet Port PCG02 GLE",
+    "image": "https://m.media-amazon.com/images/I/71dbBfeimVS.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 4.5,
+    "price": 203
+  },
+  {
+    "name": "Mini PC Windows 10 64-bit Intel X5-Z8350 Ultra HD Mini PC, TX85 Fanless Cooling 4GB RAM/64GB EMMC/4K/2.4G/5.0G Dual Band Wi-Fi/BT4.0 Micro PC",
+    "image": "https://m.media-amazon.com/images/I/61oHGJRQedL.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 3.7,
+    "price": 109.99
+  },
+  {
+    "name": "MeLE Quieter2 Fanless Mini PC Celeron J4125 8GB DDR4 128GB eMMC Mini Computer with Windows 10 Pro Mini Desktop PC 4K Dual-Screen Output, Dual WiFi, Gigabit Ethernet, BT4.2, VESA Mount",
+    "image": "https://m.media-amazon.com/images/I/813ynMjd+fS.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
+    "featured": true,
+    "description": "Nam malesuada neque at accumsan facilisis. Nulla consectetur mauris purus, et facilisis ipsum faucibus lacinia. Cras posuere lectus nec ligula placerat, nec vestibulum dolor ullamcorper. Fusce nec placerat elit. Vestibulum quam purus, consectetur ac nibh posuere, ullamcorper eleifend sem. Donec et pulvinar arcu. Phasellus et tortor pharetra, facilisis urna et, cursus nisi. Nunc lobortis tempor lacinia. Nullam elementum risus nec.",
+    "stars": 4.6,
+    "price": 259.99
+  },
+  {
+    "name": "Beelink Mini PC Windows 10 Pro, Intel Core i3-5005U Mini Computers 8GB RAM 128GB SSD, U55 Mini PC i3 Support 4K HD Dual HDMI/USB 3.0/Dual Band WiFi/Gigabit Ethernet/Bluetooth 4.2",
+    "image": "https://m.media-amazon.com/images/I/51dHOh1tn0S.jpg",
+    "category": "PC",
+    "brand": "Microsoft",
     "featured": true,
     "stars": 4.3,
-    "price": 21
+    "price": 259
   }
 ]

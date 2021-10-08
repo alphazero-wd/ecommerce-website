@@ -19,6 +19,48 @@ class Controllers {
       success: true,
       nbHits: products.length,
       data: products,
+      totalProducts: await Product.find({}).length,
+    });
+  }
+
+  static async getProduct(req, res) {
+    const { id } = req.params;
+    if (id) {
+      const product = await Product.findById(id);
+      return res.status(200).json({
+        success: true,
+        product,
+      });
+    }
+  }
+
+  static async getInfo(req, res) {
+    const products = await Product.find({});
+    const minPrice = products.reduce((value, product) => {
+      let productPrice = product.price;
+      if (value >= productPrice) {
+        value = Math.min(product.price);
+      }
+      return value;
+    }, 0);
+    const maxPrice = products.reduce((value, product) => {
+      let productPrice = product.price;
+      if (value <= productPrice) {
+        value = Math.max(product.price);
+      }
+      return value;
+    }, 0);
+
+    return res.status(200).json({
+      success: true,
+      nbHits: products.length,
+      categories: Array.from(
+        new Set(products.map((product) => product.category))
+      ),
+      brands: Array.from(new Set(products.map((product) => product.brand))),
+      minPrice,
+      maxPrice,
+      nbPages: Math.ceil(products.length / 10),
     });
   }
 }
@@ -80,7 +122,6 @@ class FindQueries {
         }
       });
     }
-    // dynamically replace based on the regex
   }
 
   queryAttribute(key, value) {
