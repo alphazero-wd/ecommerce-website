@@ -34,7 +34,7 @@ class Controllers {
     }
   }
 
-  static async getInfo(req, res) {
+  static async getInfo(_req, res) {
     const products = await Product.find({});
     const minPrice = products.reduce((value, product) => {
       let productPrice = product.price;
@@ -55,9 +55,11 @@ class Controllers {
       success: true,
       nbHits: products.length,
       categories: Array.from(
-        new Set(products.map((product) => product.category))
+        new Set(['All', ...products.map((product) => product.category)])
       ),
-      brands: Array.from(new Set(products.map((product) => product.brand))),
+      brands: Array.from(
+        new Set(['All', ...products.map((product) => product.brand)])
+      ),
       minPrice,
       maxPrice,
       nbPages: Math.ceil(products.length / 10),
