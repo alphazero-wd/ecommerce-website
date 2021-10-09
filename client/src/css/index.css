@@ -7,6 +7,9 @@
     left: 10px;
   }
 }
+* {
+  scroll-behavior: smooth;
+}
 
 .logo {
   font-family: 'Orbitron', sans-serif !important;
@@ -44,4 +47,12 @@
   .left-hero {
     max-width: 400px;
   }
+}
+.to-top {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
 }

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 const Product = ({
   _id,
   name,
@@ -10,8 +10,8 @@ const Product = ({
   stars,
 }) => {
   return (
-    <div className="col-md-4 bg-white p-3 shadow-sm rounded-lg">
-      <div className="card" style={{ maxWidth: "20rem" }}>
+    <div className="col-md-6 col-xl-4 p-3 rounded-lg">
+      <div className="card mx-auto" style={{ maxWidth: '20rem' }}>
         <img src={image} className="img-fluid card-img-top" alt={name} />
         <div className="card-body">
           <h5>{name}</h5>
@@ -21,7 +21,7 @@ const Product = ({
           <div className="d-flex align-items-center my-2">
             <div
               className="lead me-3"
-              style={{ textDecoration: featured ? "line-through" : "none" }}
+              style={{ textDecoration: featured ? 'line-through' : 'none' }}
             >
               ${price}
             </div>

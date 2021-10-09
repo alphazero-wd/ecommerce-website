@@ -1,4 +1,4 @@
-const Ratings = ({ nbStars }) => {
+const Ratings = ({ nbStars, onChange }) => {
   const stars = [];
   const getStars = () => {
     for (let i = 1; i <= nbStars; i++) {
@@ -13,6 +13,7 @@ const Ratings = ({ nbStars }) => {
         value={nbStars}
         type="radio"
         name="stars"
+        onChange={onChange}
       />
       <label className="form-check-label">
         {getStars().map((star) => (
