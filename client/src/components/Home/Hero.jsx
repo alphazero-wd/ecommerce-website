@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import illustrationImg from '../../../images/illustration.svg';
+import { Link } from "react-router-dom";
+import illustrationImg from "../../images/illustration.svg";
 const Hero = () => {
   return (
     <div className="my-4">

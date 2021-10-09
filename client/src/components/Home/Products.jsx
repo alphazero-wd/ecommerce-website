@@ -1,15 +1,15 @@
-import { useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
-import Product from '../../Product/Product';
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+import Product from "../Product/Product";
 const Products = () => {
-  const { products } = useSelector((state) => state.products);
+  const { products } = useSelector(state => state.products);
 
   return (
     <section className="my-5 bg-white py-5 px-5">
       <div className="container-lg">
         <h2 className="text-center mb-4">Featured Products</h2>
-        <div className="row justify-content-center gap-4">
-          {products.map((product) => (
+        <div className="row justify-content-center">
+          {products.map(product => (
             <Product key={product._id} {...product} />
           ))}
         </div>
