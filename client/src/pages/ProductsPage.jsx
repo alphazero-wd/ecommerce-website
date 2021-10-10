@@ -12,7 +12,7 @@ const ProductsPage = () => {
   let numericExp = 'exp=';
   const [queries, setQueries] = useState({
     price: '0',
-    name: 'exp=',
+    name: '',
     category: 'All',
     brand: 'All',
     featured: false,
@@ -20,7 +20,7 @@ const ProductsPage = () => {
     stars: '1',
   });
   const queryApi = (key, value) => {
-    if (value) urlQueries += `${key}=${value}&`;
+    if (key) urlQueries += `${key}=${value}&`;
   };
 
   const togglePages = (e) => {
@@ -53,6 +53,7 @@ const ProductsPage = () => {
   }, [dispatch]);
 
   useEffect(() => {
+    if (queries.name) queryApi('name', queries.name);
     if (queries.category !== 'All') queryApi('category', queries.category);
     if (queries.brand !== 'All') queryApi('brand', queries.brand);
     queryApi('featured', queries.featured);
@@ -62,7 +63,6 @@ const ProductsPage = () => {
     if (queries.stars) numericFilter('stars');
 
     dispatch(getProducts(urlQueries + numericExp));
-    console.log(urlQueries + numericExp);
   }, [dispatch, queries, currentPage]);
 
   if (loading) {

@@ -3,7 +3,7 @@ const SearchForm = ({ onChange }) => {
     <div className="input-group my-3">
       <input
         type="text"
-        name="searchValue"
+        name="name"
         className="form-control w-50"
         placeholder="Search for something..."
         onChange={onChange}

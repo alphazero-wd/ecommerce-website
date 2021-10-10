@@ -11,7 +11,7 @@ const Pagination = ({ currentPage, togglePages }) => {
   };
   return (
     <ul className="pagination justify-content-center my-5">
-      <li className={`page-item ${currentPage === 0 ? 'disabled' : ''}`}>
+      <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
         <button className="page-link prev-page" onClick={togglePages}>
           <i className="bi bi-chevron-left fs-6"></i>
         </button>
@@ -28,12 +28,12 @@ const Pagination = ({ currentPage, togglePages }) => {
       ))}
       <li
         className={`page-item ${
-          currentPage === paginate().length - 1 ? 'disabled' : ''
+          currentPage === apiInfo?.nbPages ? 'disabled' : ''
         }`}
       >
         <button
           className="page-link next-page"
-          disabled={currentPage === paginate().length - 1 && true}
+          disabled={currentPage === apiInfo?.nbPages && true}
           onClick={togglePages}
         >
           <i className="bi bi-chevron-right fs-6"></i>
