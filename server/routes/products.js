@@ -1,8 +1,7 @@
-const { getProducts, getProduct, getInfo } = require('../controllers/products');
+const { getProducts, getProductById } = require('../controllers/products');
 const asyncHandler = require('../middlewares/asyncHandler');
 const router = require('express').Router();
 
 router.get('/', asyncHandler(getProducts));
-router.get('/info', asyncHandler(getInfo));
-router.get('/:id', asyncHandler(getProduct));
+router.get('/:id', asyncHandler(getProductById));
 module.exports = router;

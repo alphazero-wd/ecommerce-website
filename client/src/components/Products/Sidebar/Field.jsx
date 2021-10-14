@@ -1,10 +1,10 @@
-const Field = ({ apiInfo, field, prop, onChange }) => {
+const Field = ({ field, name, onChange, fields }) => {
   return (
     <div className="my-3">
       <div className="form-floating">
-        <select className="form-select" name={prop} onChange={onChange}>
-          {apiInfo[field] &&
-            apiInfo[field].map((value, index) => (
+        <select className="form-select" name={name} onChange={onChange}>
+          {fields[field] &&
+            fields[field].map((value, index) => (
               <option value={value} key={index}>
                 {value}
               </option>

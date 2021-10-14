@@ -1,14 +1,7 @@
-import { useSelector } from 'react-redux';
+import { paginate } from '../../../utils/utils';
 
+const pages = paginate();
 const Pagination = ({ currentPage, togglePages }) => {
-  const { apiInfo } = useSelector((state) => state.products);
-  const pages = [];
-  const paginate = () => {
-    for (let i = 1; i <= apiInfo?.nbPages; i++) {
-      pages.push(i);
-    }
-    return pages;
-  };
   return (
     <ul className="pagination justify-content-center my-5">
       <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
@@ -16,7 +9,7 @@ const Pagination = ({ currentPage, togglePages }) => {
           <i className="bi bi-chevron-left fs-6"></i>
         </button>
       </li>
-      {paginate().map((page, index) => (
+      {pages.map((page, index) => (
         <li
           className={`page-item ${currentPage === page ? 'active' : ''}`}
           key={index}
@@ -28,14 +21,10 @@ const Pagination = ({ currentPage, togglePages }) => {
       ))}
       <li
         className={`page-item ${
-          currentPage === apiInfo?.nbPages ? 'disabled' : ''
+          currentPage === pages.length ? 'disabled' : ''
         }`}
       >
-        <button
-          className="page-link next-page"
-          disabled={currentPage === apiInfo?.nbPages && true}
-          onClick={togglePages}
-        >
+        <button className="page-link next-page" onClick={togglePages}>
           <i className="bi bi-chevron-right fs-6"></i>
         </button>
       </li>
