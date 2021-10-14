@@ -6,7 +6,8 @@ const PriceRange = ({ onChange, queries }) => {
         type="range"
         className="form-range"
         min={0}
-        max={3000}
+        max={1500}
+        step={100}
         name="price"
         onChange={onChange}
       />

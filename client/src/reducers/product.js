@@ -3,8 +3,8 @@ import * as api from '../api';
 export const getProductById = createAsyncThunk(
   'product/getProduct',
   async (id) => {
-    const { data } = await api.getProduct(id);
-    return data;
+    const { data } = await api.getProductById(id);
+    return data.data;
   }
 );
 
@@ -15,7 +15,7 @@ const productSlice = createSlice({
     product: {},
   },
   extraReducers: {
-    [getProductById.pending]: (state, action) => {
+    [getProductById.pending]: (state) => {
       state.loading = true;
     },
     [getProductById.fulfilled]: (state, action) => {

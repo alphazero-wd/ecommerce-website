@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import illustrationImg from "../../images/illustration.svg";
+import { Link } from 'react-router-dom';
+import illustrationImg from '../../images/illustration.svg';
 const Hero = () => {
   return (
     <div className="my-4">
@@ -10,7 +10,7 @@ const Hero = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi porro
             possimus, eius debitis iste quis!
           </p>
-          <Link to="/products" className="btn btn-info text-white btn-lg">
+          <Link to="/products" className="btn btn-outline-dark btn-lg">
             View Products <i className="bi bi-arrow-right arrow-animate"></i>
           </Link>
         </div>
