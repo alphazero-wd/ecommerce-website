@@ -76,9 +76,9 @@ const ProductsPage = () => {
             {products.map((product) => (
               <Product key={product._id} {...product} />
             ))}
-            <Pagination currentPage={currentPage} togglePages={togglePages} />
           </div>
         </div>
+        <Pagination currentPage={currentPage} togglePages={togglePages} />
       </div>
     </section>
   );
