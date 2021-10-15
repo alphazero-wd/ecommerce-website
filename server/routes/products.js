@@ -1,7 +1,7 @@
 const { getProducts, getProductById } = require('../controllers/products');
-const asyncHandler = require('../middlewares/asyncHandler');
 const router = require('express').Router();
 
-router.get('/', asyncHandler(getProducts));
-router.get('/:id', asyncHandler(getProductById));
+router.get('/', getProducts);
+router.get('/:id', getProductById);
+
 module.exports = router;

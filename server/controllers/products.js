@@ -12,7 +12,7 @@ const getProducts = async (req, res) => {
   findQuery.setFindQueries = req;
   mapQuery.setMapQueries = req;
   const products = await Product.find(getFindQueries)
-    .sort(getMapQueries.sort)
+    .sort(getMapQueries.sort || 'name price')
     .skip(getMapQueries.skip)
     .limit(getMapQueries.limit)
     .select(getMapQueries.fields);

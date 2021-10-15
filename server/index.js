@@ -15,6 +15,7 @@ app.get('/', (_req, res) => {
 
 // routes and custom middlewares
 app.use('/api/products', require('./routes/products'));
+app.use('/api/cart', require('./routes/cart'));
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
