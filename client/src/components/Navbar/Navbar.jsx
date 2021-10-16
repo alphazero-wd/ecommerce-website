@@ -1,6 +1,14 @@
+import { useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import { Link, useLocation } from 'react-router-dom';
+import Dropdown from './Dropdown';
 const Navbar = () => {
   const location = useLocation();
+  const { user } = useSelector((state) => state.user);
+  const { totalQuantity } = useSelector((state) => state.cart);
+  useEffect(() => {
+    localStorage.setItem('user', JSON.stringify(user));
+  }, [location]);
 
   return (
     <nav className="navbar navbar-expand-md navbar-light shadow-sm px-lg-5 px-3 py-3">
@@ -58,13 +66,17 @@ const Navbar = () => {
           <div className="d-flex justify-content-between align-items-center">
             <Link to="/cart" className="position-relative text-black">
               <i className="bi bi-cart3 fs-5"></i>
-              <div className="cart-value position-absolute bg-danger text-white rounded-circle">
-                5
+              <div className="cart-value position-absolute bg-dark text-white rounded-circle">
+                {totalQuantity}
               </div>
             </Link>
-            <Link to="/auth" className="btn">
-              <i className="bi bi-person fs-4"></i>
-            </Link>
+            {user ? (
+              <Dropdown {...user} />
+            ) : (
+              <Link to="/auth" className="btn">
+                <i className="bi bi-person fs-4"></i>
+              </Link>
+            )}
           </div>
         </div>
       </div>

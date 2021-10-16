@@ -11,7 +11,7 @@ const Product = ({
 }) => {
   return (
     <div className="col-md-6 col-xl-4 p-3 rounded-lg">
-      <div className="card mx-auto" style={{ maxWidth: '20rem' }}>
+      <div className="card mx-auto">
         <img src={image} className="img-fluid card-img-top" alt={name} />
         <div className="card-body">
           <h5>{name}</h5>
@@ -31,7 +31,7 @@ const Product = ({
             <i className="bi bi-star-fill text-warning me-2 fs-5"></i>
             <h5 className="d-inline text-warning">{stars}</h5>
           </div>
-          <Link to={`/products/${_id}`} className="btn btn-dark">
+          <Link to={`/products/${_id}`} className="btn btn-dark me-3">
             View Product
           </Link>
         </div>

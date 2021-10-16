@@ -3,12 +3,38 @@ import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProductById } from '../reducers/product';
 import Loading from '../components/Loading/Loading';
-
+import { addToCart, updateQuantity } from '../reducers/cart';
 const ProductPage = () => {
   const { id } = useParams();
   const { product, loading } = useSelector((state) => state.product);
+  const { cart, error } = useSelector((state) => state.cart);
+
   const dispatch = useDispatch();
   useEffect(() => dispatch(getProductById(id)), [id, dispatch]);
+
+  const addCartItem = () => {
+    const inCartItem = cart.find((product) => product.productId === id);
+    if (inCartItem) {
+      if (inCartItem.quantity < inCartItem.availability_quantity) {
+        dispatch(
+          updateQuantity({
+            _id: inCartItem._id,
+            quantity: inCartItem.quantity + 1,
+          })
+        );
+      }
+    } else {
+      dispatch(
+        addToCart({
+          name: product.name,
+          price: product.price,
+          availability_quantity: product.availability_quantity,
+          featured: product.featured,
+          productId: id,
+        })
+      );
+    }
+  };
 
   if (loading) {
     return <Loading />;
@@ -49,7 +75,16 @@ const ProductPage = () => {
               View Products
             </Link>
             {product.availability_quantity > 0 && (
-              <button className="btn btn-dark">Add To Cart</button>
+              <Link
+                to="/cart"
+                onClick={addCartItem}
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                title={error}
+                className="btn btn-dark"
+              >
+                Add To Cart
+              </Link>
             )}
           </div>
         </div>

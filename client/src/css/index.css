@@ -33,6 +33,14 @@
 .contact-form {
   width: 100% !important;
 }
+.nav-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -40,6 +48,11 @@
   }
   .contact-form {
     width: 50% !important;
+  }
+  .input-rows {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 2rem;
   }
 }
 

@@ -7,7 +7,7 @@ const Testimonials = () => {
         </h2>
         <div
           id="carouselExampleControls"
-          className="carousel slide p-5 mx-auto bg-danger bg-opacity-25"
+          className="carousel slide p-5 mx-auto bg-dark text-white"
           data-bs-ride="carousel"
           style={{ maxWidth: '800px' }}
         >
