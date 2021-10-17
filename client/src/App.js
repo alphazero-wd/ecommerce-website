@@ -3,25 +3,25 @@ import {
   Route,
   Switch,
   Redirect,
-} from 'react-router-dom';
-import Navbar from './components/Navbar/Navbar';
-import Home from './pages/Home';
-import ProductPage from './pages/ProductPage';
-import Cart from './pages/Cart';
-import Auth from './pages/Auth';
-import Footer from './components/Footer/Footer';
-import About from './pages/About';
-import ProductsPage from './pages/ProductsPage';
-import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { updateTotal } from './reducers/cart';
-import { getCart } from './reducers/cart';
+} from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home";
+import ProductPage from "./pages/ProductPage";
+import Cart from "./pages/Cart";
+import Auth from "./pages/Auth";
+import Footer from "./components/Footer/Footer";
+import About from "./pages/About";
+import ProductsPage from "./pages/ProductsPage";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { updateTotal } from "./reducers/cart";
+import { getCart } from "./reducers/cart";
 
 const App = () => {
   const [scrollPos, setScrollPos] = useState(window.scrollY);
   const dispatch = useDispatch();
-  const { user } = useSelector((state) => state.user);
-  const { cart } = useSelector((state) => state.cart);
+  const { user } = useSelector(state => state.user);
+  const { cart } = useSelector(state => state.cart);
 
   const scrollToTop = () => {
     window.scrollTo(0, 0);
@@ -29,12 +29,14 @@ const App = () => {
 
   useEffect(() => {
     const onScroll = () => setScrollPos(window.scrollY);
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, [scrollPos]);
 
   useEffect(() => {
-    dispatch(getCart());
+    if (user) {
+      dispatch(getCart());
+    }
   }, []);
   useEffect(() => dispatch(updateTotal()), [cart]);
 
@@ -51,7 +53,11 @@ const App = () => {
           exact
           render={() => (user ? <Redirect to="/" /> : <Auth />)}
         />
-        <Route path="/cart" exact component={Cart} />
+        <Route
+          path="/cart"
+          exact
+          render={() => (user ? <Cart /> : <Redirect to="/auth" />)}
+        />
       </Switch>
       <Footer />
       {scrollPos > 100 && (

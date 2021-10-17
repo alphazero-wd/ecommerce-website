@@ -3,11 +3,15 @@ const {
   addToCart,
   updateQuantity,
   deleteCartItem,
-} = require('../controllers/cart');
-const auth = require('../middlewares/auth');
-const router = require('express').Router();
+  clearCart,
+} = require("../controllers/cart");
+const auth = require("../middlewares/auth");
+const router = require("express").Router();
 
-router.route('/').get(auth, getCart).post(auth, addToCart);
-router.route('/:id').put(auth, updateQuantity).delete(auth, deleteCartItem);
+router.get("/", auth, getCart);
+router.post("/", auth, addToCart);
+router.put("/:id", auth, updateQuantity);
+router.delete("/:id", auth, deleteCartItem);
+router.delete("/", auth, clearCart);
 
 module.exports = router;

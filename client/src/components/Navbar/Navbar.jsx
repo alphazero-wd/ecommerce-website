@@ -1,13 +1,13 @@
-import { useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import { Link, useLocation } from 'react-router-dom';
-import Dropdown from './Dropdown';
+import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { Link, useLocation } from "react-router-dom";
+import Dropdown from "./Dropdown";
 const Navbar = () => {
   const location = useLocation();
-  const { user } = useSelector((state) => state.user);
-  const { totalQuantity } = useSelector((state) => state.cart);
+  const { user } = useSelector(state => state.user);
+  const { totalQuantity } = useSelector(state => state.cart);
   useEffect(() => {
-    localStorage.setItem('user', JSON.stringify(user));
+    localStorage.setItem("user", JSON.stringify(user));
   }, [location]);
 
   return (
@@ -36,7 +36,7 @@ const Navbar = () => {
               <Link
                 to="/"
                 className={`nav-link ${
-                  location.pathname === '/' ? 'active' : ''
+                  location.pathname === "/" ? "active" : ""
                 }`}
               >
                 Home
@@ -45,7 +45,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 className={`nav-link ${
-                  location.pathname === '/about' ? 'active' : ''
+                  location.pathname === "/about" ? "active" : ""
                 }`}
                 to="/about"
               >
@@ -56,7 +56,7 @@ const Navbar = () => {
               <Link
                 to="/products"
                 className={`nav-link ${
-                  location.pathname === '/products' ? 'active' : ''
+                  location.pathname === "/products" ? "active" : ""
                 }`}
               >
                 Products

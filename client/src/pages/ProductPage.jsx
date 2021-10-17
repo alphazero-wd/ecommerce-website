@@ -1,38 +1,42 @@
-import { useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { getProductById } from '../reducers/product';
-import Loading from '../components/Loading/Loading';
-import { addToCart, updateQuantity } from '../reducers/cart';
+import { useEffect } from "react";
+import { Link, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { getProductById } from "../reducers/product";
+import Loading from "../components/Loading/Loading";
+import { addToCart, updateQuantity } from "../reducers/cart";
 const ProductPage = () => {
   const { id } = useParams();
-  const { product, loading } = useSelector((state) => state.product);
-  const { cart, error } = useSelector((state) => state.cart);
-
+  const { product, loading } = useSelector(state => state.product);
+  const { cart } = useSelector(state => state.cart);
+  const { user } = useSelector(state => state.user);
   const dispatch = useDispatch();
   useEffect(() => dispatch(getProductById(id)), [id, dispatch]);
 
   const addCartItem = () => {
-    const inCartItem = cart.find((product) => product.productId === id);
-    if (inCartItem) {
-      if (inCartItem.quantity < inCartItem.availability_quantity) {
+    if (user) {
+      const inCartItem = cart.find(product => product.productId === id);
+      if (inCartItem) {
+        if (inCartItem.quantity < inCartItem.availability_quantity) {
+          dispatch(
+            updateQuantity({
+              _id: inCartItem._id,
+              quantity: inCartItem.quantity + 1,
+            })
+          );
+        }
+      } else {
         dispatch(
-          updateQuantity({
-            _id: inCartItem._id,
-            quantity: inCartItem.quantity + 1,
+          addToCart({
+            name: product.name,
+            price: product.price,
+            availability_quantity: product.availability_quantity,
+            featured: product.featured,
+            productId: id,
+            user: user.name,
+            userId: user._id,
           })
         );
       }
-    } else {
-      dispatch(
-        addToCart({
-          name: product.name,
-          price: product.price,
-          availability_quantity: product.availability_quantity,
-          featured: product.featured,
-          productId: id,
-        })
-      );
     }
   };
 
@@ -53,14 +57,14 @@ const ProductPage = () => {
               <div className="col-md-6">
                 <div
                   className={`d-inline-block px-3 py-2 rounded-pill my-2 text-${
-                    product.availability_quantity > 0 ? 'success' : 'danger'
+                    product.availability_quantity > 0 ? "success" : "danger"
                   } bg-opacity-25 bg-${
-                    product.availability_quantity > 0 ? 'success' : 'danger'
+                    product.availability_quantity > 0 ? "success" : "danger"
                   }`}
                 >
                   {product.availability_quantity > 0
                     ? `${product.availability_quantity} In Stock`
-                    : 'Out of Stock'}
+                    : "Out of Stock"}
                 </div>
                 <div className="col-md-6 d-inline-block ms-3 text-warning">
                   <i className="bi bi-star-fill fs-5 me-2"></i>
@@ -80,7 +84,6 @@ const ProductPage = () => {
                 onClick={addCartItem}
                 data-bs-toggle="tooltip"
                 data-bs-placement="right"
-                title={error}
                 className="btn btn-dark"
               >
                 Add To Cart

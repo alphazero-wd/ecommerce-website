@@ -1,7 +1,7 @@
-const Cart = require('../models/Cart');
-const ErrorResponse = require('../utils/ErrorResponse');
+const Cart = require("../models/Cart");
+const ErrorResponse = require("../utils/ErrorResponse");
 
-const getCart = async (_req, res, next) => {
+const getCart = async (req, res, next) => {
   try {
     const cart = await Cart.find({});
     return res.status(200).json({
@@ -16,11 +16,18 @@ const getCart = async (_req, res, next) => {
 
 const addToCart = async (req, res, next) => {
   try {
-    const { name, price, availability_quantity, featured, productId } =
-      req.body;
+    const {
+      name,
+      price,
+      availability_quantity,
+      featured,
+      productId,
+      user,
+      userId,
+    } = req.body;
 
     if (availability_quantity === 0)
-      return next(new ErrorResponse('Product is Out Of Stock.', 400));
+      return next(new ErrorResponse("Product is Out Of Stock.", 400));
 
     const newCartItem = await Cart.create({
       name,
@@ -28,6 +35,8 @@ const addToCart = async (req, res, next) => {
       availability_quantity,
       featured,
       productId,
+      user,
+      userId,
     });
 
     return res.status(201).json({
@@ -51,12 +60,12 @@ const updateQuantity = async (req, res, next) => {
       );
 
     if (isNaN(parseInt(quantity)))
-      return next(new ErrorResponse('Quantity Must Be A Number.', 400));
+      return next(new ErrorResponse("Quantity Must Be A Number.", 400));
 
     if (parseInt(quantity) > parseInt(cartItem.availability_quantity))
       return next(
         new ErrorResponse(
-          'Product Quantity Must Not Be Greater Than Available Quantity.',
+          "Product Quantity Must Not Be Greater Than Available Quantity.",
           400
         )
       );
@@ -95,7 +104,7 @@ const deleteCartItem = async (req, res, next) => {
 
     return res.status(200).json({
       success: true,
-      message: 'Cart Item Removed',
+      message: "Cart Item Removed",
     });
   } catch (error) {
     next(error);
