@@ -110,12 +110,13 @@ const ProductPage = () => {
                   className="btn btn-dark text-uppercase w-100"
                   onClick={() => addCartItem(id)}
                   disabled={
-                    product.availability_quantity === 0 ||
-                    cart?.some((item) => item._id === id)
+                    (product.availability_quantity === 0 && true) ||
+                    (cart?.some((item) => item._id === id)
                       ? product.quantity >
                         product.availability_quantity -
                           cart?.find((item) => item._id === id)?.quantity
-                      : product.quantity > product.availability_quantity
+                      : product.quantity > product.availability_quantity &&
+                        true)
                   }
                 >
                   Add To Cart
