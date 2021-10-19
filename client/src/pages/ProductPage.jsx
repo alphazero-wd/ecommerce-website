@@ -1,72 +1,50 @@
-import { useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { getProductById } from "../reducers/product";
-import Loading from "../components/Loading/Loading";
-import { addToCart, updateQuantity } from "../reducers/cart";
+import { useEffect } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { getProductById, updateProduct } from '../reducers/product';
+import Loading from '../components/Loading/Loading';
+import { addToCart, updateQuantity } from '../reducers/cart';
+
 const ProductPage = () => {
   const { id } = useParams();
-  const { product, loading } = useSelector(state => state.product);
-  const { cart } = useSelector(state => state.cart);
-  const { user } = useSelector(state => state.user);
+  const { product, loading } = useSelector((state) => state.product);
   const dispatch = useDispatch();
-  useEffect(() => dispatch(getProductById(id)), [id, dispatch]);
+  const { cart } = useSelector((state) => state.cart);
 
-  const addCartItem = () => {
-    if (user) {
-      const inCartItem = cart.find(product => product.productId === id);
-      if (inCartItem) {
-        if (inCartItem.quantity < inCartItem.availability_quantity) {
-          dispatch(
-            updateQuantity({
-              _id: inCartItem._id,
-              quantity: inCartItem.quantity + 1,
-            })
-          );
-        }
-      } else {
+  const addCartItem = (id) => {
+    const inCartItem = cart.find((item) => item._id === id);
+
+    if (!inCartItem) {
+      dispatch(addToCart(product));
+    } else {
+      if (inCartItem.quantity < inCartItem.availability_quantity) {
         dispatch(
-          addToCart({
-            name: product.name,
-            price: product.price,
-            availability_quantity: product.availability_quantity,
-            featured: product.featured,
-            productId: id,
-            user: user.name,
-            userId: user._id,
+          updateQuantity({
+            ...product,
+            quantity: product.quantity + inCartItem.quantity,
           })
         );
       }
     }
   };
 
+  useEffect(() => dispatch(getProductById(id)), [id, dispatch]);
+
   if (loading) {
     return <Loading />;
   }
-
   return (
     <section className="my-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-5">
+          <div className="col-lg-4">
             <img src={product.image} className="img-fluid" alt={product.name} />
           </div>
-          <div className="col-lg-7 mt-3 mt-lg-0">
+          <div className="col-lg-5 mt-3 mt-lg-0">
             <h4>{product.name}</h4>
             <div className="row">
               <div className="col-md-6">
-                <div
-                  className={`d-inline-block px-3 py-2 rounded-pill my-2 text-${
-                    product.availability_quantity > 0 ? "success" : "danger"
-                  } bg-opacity-25 bg-${
-                    product.availability_quantity > 0 ? "success" : "danger"
-                  }`}
-                >
-                  {product.availability_quantity > 0
-                    ? `${product.availability_quantity} In Stock`
-                    : "Out of Stock"}
-                </div>
-                <div className="col-md-6 d-inline-block ms-3 text-warning">
+                <div className="col-md-6 text-warning">
                   <i className="bi bi-star-fill fs-5 me-2"></i>
                   <h5 className="d-inline">{product.stars}</h5>
                 </div>
@@ -78,17 +56,72 @@ const ProductPage = () => {
             <Link to="/products" className="btn btn-outline-dark me-3">
               View Products
             </Link>
-            {product.availability_quantity > 0 && (
-              <Link
-                to="/cart"
-                onClick={addCartItem}
-                data-bs-toggle="tooltip"
-                data-bs-placement="right"
-                className="btn btn-dark"
-              >
-                Add To Cart
-              </Link>
-            )}
+          </div>
+          <div className="col-lg-3 mt-3 mt-lg-0">
+            <ul className="list-group">
+              <li className="list-group-item d-flex justify-content-between align-items-center">
+                Price:{' '}
+                <span>${(product.price * product.quantity).toFixed(2)}</span>
+              </li>
+              <li className="list-group-item d-flex justify-content-between align-items-center">
+                Status:{' '}
+                <span>
+                  {product.availability_quantity > 0
+                    ? `${product.availability_quantity} In Stock`
+                    : 'Out Of Stock'}
+                </span>
+              </li>
+              <li className="list-group-item d-flex justify-content-between align-items-center">
+                Quantity:{' '}
+                <div className="btn-group">
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() =>
+                      dispatch(
+                        updateProduct({ quantity: product.quantity - 1 })
+                      )
+                    }
+                    disabled={product.quantity === 1}
+                  >
+                    <i className="bi bi-dash"></i>
+                  </button>
+                  <div className="btn btn-light">{product.quantity}</div>
+                  <button
+                    className="btn btn-secondary"
+                    onClick={() =>
+                      dispatch(
+                        updateProduct({ quantity: product.quantity + 1 })
+                      )
+                    }
+                    disabled={
+                      cart?.some((item) => item._id === id)
+                        ? product.quantity >=
+                          product.availability_quantity -
+                            cart?.find((item) => item._id === id)?.quantity
+                        : product.quantity >= product.availability_quantity
+                    }
+                  >
+                    <i className="bi bi-plus"></i>
+                  </button>
+                </div>
+              </li>
+              <li className="list-group-item">
+                <button
+                  className="btn btn-dark text-uppercase w-100"
+                  onClick={() => addCartItem(id)}
+                  disabled={
+                    product.availability_quantity === 0 ||
+                    cart?.some((item) => item._id === id)
+                      ? product.quantity >
+                        product.availability_quantity -
+                          cart?.find((item) => item._id === id)?.quantity
+                      : product.quantity > product.availability_quantity
+                  }
+                >
+                  Add To Cart
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

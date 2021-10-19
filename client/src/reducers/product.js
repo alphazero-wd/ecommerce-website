@@ -14,6 +14,11 @@ const productSlice = createSlice({
     loading: true,
     product: {},
   },
+  reducers: {
+    updateProduct: (state, action) => {
+      state.product.quantity = action.payload.quantity;
+    },
+  },
   extraReducers: {
     [getProductById.pending]: (state) => {
       state.loading = true;
@@ -24,4 +29,6 @@ const productSlice = createSlice({
     },
   },
 });
+
+export const { updateProduct } = productSlice.actions;
 export default productSlice.reducer;

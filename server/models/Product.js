@@ -37,5 +37,9 @@ const ProductSchema = mongoose.Schema({
     type: String,
     default: 'No Description Provided for the Product',
   },
+  quantity: {
+    type: Number,
+    default: 1,
+  },
 });
 module.exports = mongoose.model('Product', ProductSchema);

@@ -37,10 +37,10 @@ const Footer = () => {
             </Link>
             <br />
             <Link
-              to="/auth"
+              to="/about"
               className="text-white text-decoration-none d-inline-block my-2"
             >
-              Account
+              About
             </Link>
             <br />
             <Link

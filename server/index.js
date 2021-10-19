@@ -15,7 +15,6 @@ app.get('/', (_req, res) => {
 
 // routes and custom middlewares
 app.use('/api/products', require('./routes/products'));
-app.use('/api/cart', require('./routes/cart'));
 app.use('/api/user', require('./routes/user'));
 app.use(errorHandler);
 

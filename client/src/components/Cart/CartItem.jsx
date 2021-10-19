@@ -22,7 +22,7 @@ const CartItem = ({ _id, name, price, quantity, availability_quantity }) => {
             onClick={() =>
               dispatch(updateQuantity({ _id, quantity: quantity + 1 }))
             }
-            disabled={availability_quantity === quantity}
+            disabled={quantity >= availability_quantity}
           >
             <i className="bi bi-plus"></i>
           </button>
