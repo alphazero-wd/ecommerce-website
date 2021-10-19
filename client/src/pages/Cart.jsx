@@ -3,6 +3,7 @@ import CartItem from '../components/Cart/CartItem';
 import emptyCartImg from '../images/empty-cart.svg';
 import { Link } from 'react-router-dom';
 import Modal from '../components/Modal/Modal';
+import Total from '../components/Cart/Total';
 
 const Cart = () => {
   const { cart, totalPrice } = useSelector((state) => state.cart);
@@ -59,6 +60,7 @@ const Cart = () => {
         </table>
         <Modal />
       </div>
+      <Total />
     </section>
   );
 };
